@@ -1,0 +1,52 @@
+:root {
+    --main-color: rgb(225, 60, 60);
+    --click-color: rgb(180, 25, 25);
+    --text-color: rgba(225, 60, 60, 0.2);
+    --background-color: rgb(100, 100, 100);
+    --notify-color: rgba(100,100,100,0.3);
+    --nav-color: rgb(150, 150, 150);
+    --block-color: rgb(225,235,250);
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body, html {
+    font-size: 62,5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-padding-top: 100px;
+}
+
+.grid {
+    width: 1380px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.res {
+    width: 100%;
+    height: auto
+}
+.section {
+    text-align: center;
+}
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space {
+    margin: 20px 20px 0 20px;
+
+}
+
+.block {
+    display: block;
+}

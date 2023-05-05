@@ -1,0 +1,92 @@
+@media only screen and (max-width: 1145px) {
+
+
+    .logo {
+        width: 150px;
+    }
+    .logo-img {
+        width: 100%;
+        left: 0;
+    }
+    .logo::before {
+        right: 3%;
+    }
+    .menu {
+        display: none;
+    }
+    .nav-btn {
+        display: block;
+    }
+
+}
+@media only screen and (max-width: 900px) {
+    .news-event-block {
+        flex-direction: column;
+    }
+    .news-event-information {
+        width: 100%;
+        margin: 0 0 20px 0;
+        /* height: 700px; */
+    }
+    .news-event-img {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .news-event-click {
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1280px) {
+    .newsletter {
+        width: 100%;
+    }
+    .newsletter .footer-title {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .newsletter .footer-title:after {
+        content: "";
+        width: 0;
+        height: 0;
+    }
+    .newsletter .newsletter-content {
+        text-align: center;
+    }
+    .newsletter-block {
+        width: 80%;
+        height: 50px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .footer-contact {
+        width: 800px;
+        margin: 0 auto 30px auto;
+        text-align: center;
+    }
+    .footer-myshop {
+        margin: 0 auto 20px auto;
+    }
+
+}
